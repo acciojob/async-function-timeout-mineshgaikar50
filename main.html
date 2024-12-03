@@ -7,13 +7,16 @@
 
   <body>
     <!-- the entire body must be written by student -->
-    <form onsubmit="return false">
-      <input type="text" id="text" placeholder="Text" />
-      <input type="number" id="delay" placeholder="Delay" />
-      <button type="button" id="btn">Submit</button>
-    </form>
-
-    <div id="output"></div>
+    <form>
+  <label for="text">Text:</label>
+  <input type="text" id="text" placeholder="Enter text here">
+  <br>
+  <label for="delay">Delay (ms):</label>
+  <input type="number" id="delay" placeholder="Enter delay in milliseconds">
+  <br>
+  <button id="btn" type="button">Submit</button>
+</form>
+<div id="output"></div>
 
     <script type="text/javascript" src="./script.js"></script>
   </body>
